@@ -27,22 +27,27 @@
     <form>
         <h1>Acesse sua conta</h1>
         <p>Não possui conta? Registre-se  <a href="#">aqui</a>.</p>
-        <div>
+        <div class="inputs">
             <div>
                <label>Email *</label>
                <p>
-               <input type="email"
-                      placeholder="insira sua senha"/></p>
+               <input type="email" 
+                      placeholder="Ex: seunome@email.com"
+                />
             </div>
             <div>
-                <label>Senha *</label> <p>
-                <input type="password"/></p>
+                <label>Senha *</label>
+                <input type="password"
+                       placeholder="Ex: 12346"
+                       required
+                    />
             </div>
         </div>
         <span>
             <a href="#">Esqueci minha senha</a><p></p>
         </span>
         <button>Acessar Conta</button>
+        <div class="othes">
         <nav>
             <ul>
                 <li>
@@ -61,7 +66,8 @@
                  </a>
                 </li>
             </ul>
-        </nav>
+          </nav>
+        </div>
         <div>
             <span>faça login com </span>
         </div>
